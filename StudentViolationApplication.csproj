@@ -161,5 +161,20 @@
   <ItemGroup>
     <None Include="Resources\search_24dp_000000.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_43dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_38dp_E3E3E3_FILL0_wght400_GRAD0_opsz40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_24dp1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -15,10 +15,12 @@ namespace StudentViolationApplication
         public defaultForm()
         {
             InitializeComponent();
+            btnMenu.Hide();
+            sidePanelTimer.Start();
 
         }
-    
-    public void loadForm(object Form)
+        bool sidePanelExpand;
+        public void loadForm(object Form)
         {
             if (this.mainpanel1.Controls.Count > 0)
                 this.mainpanel1.Controls.RemoveAt(0);
@@ -50,9 +52,43 @@ namespace StudentViolationApplication
             Application.Exit();
         }
 
-        private void lblAdminName_Click(object sender, EventArgs e)
-        {
 
+        private void btnCloseSidepanel_Click(object sender, EventArgs e)
+        {
+            sidePanelTimer.Start();
+            
+        }
+
+        private void sidePanelTimer_Tick(object sender, EventArgs e)
+        {
+            
+            if (sidePanelExpand)
+            {
+                SidePanel.Width -= 10;
+                if (SidePanel.Width == SidePanel.MinimumSize.Width)
+                {
+                    sidePanelExpand = false;
+                    btnCloseSidepanel.Hide();
+                    btnMenu.Show();
+                    sidePanelTimer.Stop();
+
+                }
+            }
+            else
+            {
+                SidePanel.Width += 10;
+                if (SidePanel.Width == SidePanel.MaximumSize.Width)
+                {
+                    sidePanelExpand = true;
+                    sidePanelTimer.Stop();
+                }
+            }
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            sidePanelTimer.Start();
+            btnCloseSidepanel.Show();
         }
     }
 }
