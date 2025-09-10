@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panelSide = new System.Windows.Forms.Panel();
+            this.btnReport = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
-            this.btnReport = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.lbl_IDNumber = new System.Windows.Forms.Label();
             this.lbl_ID = new System.Windows.Forms.Label();
@@ -41,9 +41,11 @@
             this.btnStudent = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.mainpanel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelSide.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.mainpanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSide
@@ -65,6 +67,27 @@
             this.panelSide.Name = "panelSide";
             this.panelSide.Size = new System.Drawing.Size(328, 618);
             this.panelSide.TabIndex = 0;
+            // 
+            // btnReport
+            // 
+            this.btnReport.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnReport.FlatAppearance.BorderSize = 0;
+            this.btnReport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReport.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReport.ForeColor = System.Drawing.Color.White;
+            this.btnReport.Image = global::StudentViolationApplication.Properties.Resources.article_28dp;
+            this.btnReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReport.Location = new System.Drawing.Point(-2, 417);
+            this.btnReport.Margin = new System.Windows.Forms.Padding(4);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnReport.Size = new System.Drawing.Size(330, 30);
+            this.btnReport.TabIndex = 4;
+            this.btnReport.Text = "REPORTS";
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // button1
             // 
@@ -123,27 +146,6 @@
             this.btnLogout.TabIndex = 5;
             this.btnLogout.Text = "LOGOUT";
             this.btnLogout.UseVisualStyleBackColor = true;
-            // 
-            // btnReport
-            // 
-            this.btnReport.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnReport.FlatAppearance.BorderSize = 0;
-            this.btnReport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReport.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReport.ForeColor = System.Drawing.Color.White;
-            this.btnReport.Image = global::StudentViolationApplication.Properties.Resources.article_28dp;
-            this.btnReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReport.Location = new System.Drawing.Point(-2, 417);
-            this.btnReport.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReport.Name = "btnReport";
-            this.btnReport.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.btnReport.Size = new System.Drawing.Size(330, 30);
-            this.btnReport.TabIndex = 4;
-            this.btnReport.Text = "REPORTS";
-            this.btnReport.UseVisualStyleBackColor = true;
-            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // panelLogo
             // 
@@ -255,11 +257,21 @@
             // mainpanel1
             // 
             this.mainpanel1.BackColor = System.Drawing.Color.Transparent;
+            this.mainpanel1.Controls.Add(this.label1);
             this.mainpanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainpanel1.Location = new System.Drawing.Point(328, 0);
             this.mainpanel1.Name = "mainpanel1";
             this.mainpanel1.Size = new System.Drawing.Size(954, 618);
             this.mainpanel1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(324, 126);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
             // 
             // defaultForm
             // 
@@ -276,6 +288,8 @@
             this.panelSide.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.mainpanel1.ResumeLayout(false);
+            this.mainpanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -295,6 +309,7 @@
         private System.Windows.Forms.Panel mainpanel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
     }
 }
 
