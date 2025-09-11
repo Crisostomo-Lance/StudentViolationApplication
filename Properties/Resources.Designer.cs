@@ -63,6 +63,26 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap account_circle_16dp {
+            get {
+                object obj = ResourceManager.GetObject("account_circle_16dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap account_circle_16dp1 {
+            get {
+                object obj = ResourceManager.GetObject("account_circle_16dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap account_circle_96dp {
             get {
                 object obj = ResourceManager.GetObject("account_circle_96dp", resourceCulture);
@@ -73,9 +93,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap article_28dp {
+        internal static System.Drawing.Bitmap assignment_turned_in_24dp {
             get {
-                object obj = ResourceManager.GetObject("article_28dp", resourceCulture);
+                object obj = ResourceManager.GetObject("assignment_turned_in_24dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +103,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap close_24dp {
+        internal static System.Drawing.Bitmap assignment_turned_in_24dp1 {
             get {
-                object obj = ResourceManager.GetObject("close_24dp", resourceCulture);
+                object obj = ResourceManager.GetObject("assignment_turned_in_24dp1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +113,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap close_43dp_E3E3E3_FILL0_wght400_GRAD0_opsz40 {
+        internal static System.Drawing.Bitmap home_16dp {
             get {
-                object obj = ResourceManager.GetObject("close_43dp_E3E3E3_FILL0_wght400_GRAD0_opsz40", resourceCulture);
+                object obj = ResourceManager.GetObject("home_16dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +123,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logout_28dp {
+        internal static System.Drawing.Bitmap home_16dp1 {
             get {
-                object obj = ResourceManager.GetObject("logout_28dp", resourceCulture);
+                object obj = ResourceManager.GetObject("home_16dp1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +133,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_24dp {
+        internal static System.Drawing.Bitmap home_24dp_ {
             get {
-                object obj = ResourceManager.GetObject("menu_24dp", resourceCulture);
+                object obj = ResourceManager.GetObject("home_24dp_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +143,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_24dp1 {
+        internal static System.Drawing.Bitmap home_24dp_1 {
             get {
-                object obj = ResourceManager.GetObject("menu_24dp1", resourceCulture);
+                object obj = ResourceManager.GetObject("home_24dp_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +153,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap menu_38dp_E3E3E3_FILL0_wght400_GRAD0_opsz40 {
+        internal static System.Drawing.Bitmap logout_24d {
             get {
-                object obj = ResourceManager.GetObject("menu_38dp_E3E3E3_FILL0_wght400_GRAD0_opsz40", resourceCulture);
+                object obj = ResourceManager.GetObject("logout_24d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +163,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap monitor_28dp {
+        internal static System.Drawing.Bitmap manage_accounts_18dp {
             get {
-                object obj = ResourceManager.GetObject("monitor_28dp", resourceCulture);
+                object obj = ResourceManager.GetObject("manage_accounts_18dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +173,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap person_28dp {
+        internal static System.Drawing.Bitmap person_24dp {
             get {
-                object obj = ResourceManager.GetObject("person_28dp", resourceCulture);
+                object obj = ResourceManager.GetObject("person_24dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +183,9 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap search_24dp {
+        internal static System.Drawing.Bitmap person_24dp1 {
             get {
-                object obj = ResourceManager.GetObject("search_24dp", resourceCulture);
+                object obj = ResourceManager.GetObject("person_24dp1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +193,29 @@ namespace StudentViolationApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap search_24dp_000000 {
+        internal static System.Drawing.Bitmap report_24dp_ {
             get {
-                object obj = ResourceManager.GetObject("search_24dp_000000", resourceCulture);
+                object obj = ResourceManager.GetObject("report_24dp_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings_24dp {
+            get {
+                object obj = ResourceManager.GetObject("settings_24dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings_account_box_18dp {
+            get {
+                object obj = ResourceManager.GetObject("settings_account_box_18dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
