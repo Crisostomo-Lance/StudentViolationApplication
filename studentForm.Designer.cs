@@ -46,7 +46,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::StudentViolationApplication.Properties.Resources.search_24dp_000000;
             this.pictureBox1.Location = new System.Drawing.Point(865, 29);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(45, 36);
